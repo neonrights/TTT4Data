@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tac Tac Toe for Data!</title>
+
+		<link rel="stylesheet" href="ttt.css" type="text/css" />
+		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="ttt.js"></script>
+	</head>
+	<body>
+		<!--website introduction-->
+		<h1>This is a Tic Tac Toe Game</h1>
+		<p id="intro">This is to get data for machine learning. It records moves by each player and nothing else. Play however you want, but in general please try to win.</p>
+		
+		<!--the actual tile game-->
+		<div id="board">
+			<div id="cell-0" class="tiles"></div>
+			<div id="cell-1" class="tiles"></div>
+			<div id="cell-2" class="tiles"></div>
+			<div id="cell-3" class="tiles"></div>
+			<div id="cell-4" class="tiles"></div>
+			<div id="cell-5" class="tiles"></div>
+			<div id="cell-6" class="tiles"></div>
+			<div id="cell-7" class="tiles"></div>
+			<div id="cell-8" class="tiles"></div>
+		</div>
+
+		<input type="submit" value="New Game" id="restart" disabled/>
+
+		<!--information about the creator-->
+		<p id="developer">Created by Nicholas Farn, 11/6/2015</p>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+/* not a lot of css, just general niceness */
+
+/* set default font and text and stuff */
+/* center everything */
+body {
+	text-align: center;
+	font-family: arial;
+}
+
+input {
+	visibility: hidden;
+	font-family: arial;
+}
+
+/* sets size of tiles */
+.tiles {
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	background-size: contain;
+}
+
+/* need to change container for tiles to relative or something */
+#board {
+	width: 385px;
+	height: 385px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* sets text size and other stuff for h1 */
+h1 {
+	font-size: 20pt;
+}
+
+/* sets text size and other stuff for intro */
+#intro {
+	font-size: 10pt;
+	margin: 5px 10%;
+}
+
+/* sets text size and other stuff for developer */
+#developer {
+	font-size: 8pt;
+}
+
+#cell-0 {
+	border-right: solid black 5px;
+	border-bottom: solid black 5px;
+	left: 0px;
+	top: 0px;
+}
+
+#cell-1 {
+	border-left: solid black 5px;
+	border-right: solid black 5px;
+	border-bottom: solid black 5px;
+	left: 125px;
+	top: 0px;
+}
+
+#cell-2 {
+	border-left: solid black 5px;
+	border-bottom: solid black 5px;
+	left: 255px;
+	top: 0px;
+}
+
+#cell-3 {
+	border-right: solid black 5px;
+	border-top: solid black 5px;
+	border-bottom: solid black 5px;
+	left: 0px;
+	top: 125px;
+}
+
+#cell-4 {
+	border: solid black 5px;
+	left: 125px;
+	top: 125px;
+}
+
+#cell-5 {
+	border-left: solid black 5px;
+	border-top: solid black 5px;
+	border-bottom: solid black 5px;
+	left: 255px;
+	top: 125px;
+}
+
+#cell-6 {
+	border-right: solid black 5px;
+	border-top: solid black 5px;
+	left: 0px;
+	top: 255px;
+}
+
+#cell-7 {
+	border-left: solid black 5px;
+	border-right: solid black 5px;
+	border-top: solid black 5px;
+	left: 125px;
+	top: 255px;
+}
+
+#cell-8 {
+	border-left: solid black 5px;
+	border-top: solid black 5px;
+	left: 255px;
+	top: 255px;
+}
